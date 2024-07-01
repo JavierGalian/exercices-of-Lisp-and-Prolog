@@ -7,8 +7,8 @@
 ;     c) Multiplique el primer elemento de las tres listas en caso contrario.
 
 (
-    defun sum-list(list)
-        (if (null list) 0 (+ (car list) (sum-list (cdr list))))
+    defun sum-list(lista)
+        (if (null lista) 0 (+ (car lista) (sum-list (cdr lista))))
 )
 
 
