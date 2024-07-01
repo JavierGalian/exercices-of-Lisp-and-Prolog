@@ -1,0 +1,12 @@
+signo(Dia, Mes, aries) :- (Mes = 3, Dia >= 21); (Mes = 4, Dia =< 20).
+signo(Dia, Mes, tauro) :- (Mes = 4, Dia >= 21); (Mes = 5, Dia =< 20).
+signo(Dia, Mes, geminis) :- (Mes = 5, Dia >= 21); (Mes = 6, Dia =< 20).
+signo(Dia, Mes, cancer) :- (Mes = 6, Dia >= 21); (Mes = 7, Dia =< 22).
+signo(Dia, Mes, leo) :- (Mes = 7, Dia >= 23); (Mes = 8, Dia =< 22).
+signo(Dia, Mes, virgo) :- (Mes = 8, Dia >= 23); (Mes = 9, Dia =< 22).
+signo(Dia, Mes, libra) :- (Mes = 9, Dia >= 23); (Mes = 10, Dia =< 22).
+signo(Dia, Mes, escorpio) :- (Mes = 10, Dia >= 23); (Mes = 11, Dia =< 21).
+signo(Dia, Mes, sagitario) :- (Mes = 11, Dia >= 22); (Mes = 12, Dia =< 21).
+signo(Dia, Mes, capricornio) :- (Mes = 12, Dia >= 22); (Mes = 1, Dia =< 20).
+signo(Dia, Mes, acuario) :- (Mes = 1, Dia >= 21); (Mes = 2, Dia =< 19).
+signo(Dia, Mes, piscis) :- (Mes = 2, Dia >= 20); (Mes = 3, Dia =< 20).
